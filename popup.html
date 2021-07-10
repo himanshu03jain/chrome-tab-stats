@@ -1,0 +1,27 @@
+<style>
+body {
+  width: 620px;
+  overflow-x:hidden;
+  cursor: default;
+  text-align: center;
+}
+.metrics {
+  font-size: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+  display: inline;
+}
+.metric {
+  color: #888;
+}
+
+#graph {
+  clear: both;
+  width: 600px;
+  height: 300px;
+}
+</style>
+<script language="javascript" type="text/javascript" src="/flot/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="flot/jquery.flot.js"></script>
+<script language="javascript" type="text/javascript" src="popup.js"></script>
+<div class="metrics">You currently have <span id="total" class="metric">0</span> tabs open, and have opened <span id="opened" class="metric">0</span> and closed <span id="closed" class="metric">0</span>.</div>
+<div id="graph"></div>
