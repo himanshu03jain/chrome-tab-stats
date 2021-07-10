@@ -1,9 +1,14 @@
+# chrome-tab-stats
+
 This is a simple Chrome extension to show tab usage information. It includes a pretty graph:
 
+It shows how many tabs are open and how many have opened and closed timely 
+
+![alt text](https://github.com/himanshu03jain/chrome-tab-stats/blob/master/tbimg.JPG?raw=true)
 
 To install:
 
-*   Download the project: [https://github.com/tylor/chrome-tab-stats/zipball/master](https://github.com/tylor/chrome-tab-stats/zipball/master)
+*   Download the project: [Click here](https://github.com/himanshu03jain/chrome-tab-stats/archive/refs/heads/master.zip)
 *   Download the [flot](https://github.com/flot/flot/zipball/v0.7) library, unzip, and add to root directory of project. Rename folder 'flot-flot-f0e78fc' to 'flot': [http://www.flotcharts.org](http://www.flotcharts.org)
 *   Open Chrome, click Window > Extensions
 *   Click '+' next to 'Developer mode'
